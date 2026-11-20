@@ -25,10 +25,14 @@ holds the drawing code; `entry.png` is the image it produced.
 
 ## The six stories
 
-Built in the early hours of Friday (07:00 WIB), so the six stories
-are the ones leading Friday's news as reported overnight and that
-morning — including the day's events still to come (Akvan's landfall
-at noon, COP31's close). Each was verified against at least two
+Built in the early hours of Friday (07:00 WIB), then rebuilt on
+Friday night (19:30 WIB) after the day's two moving stories
+resolved: Cyclone Akvan made landfall in the morning and weakened,
+and the COP31 draft dropped its fossil-fuel language and its $120bn
+adaptation goal with no final deal. The GTA 6 launch-day tally was
+also updated to Sensor Tower's end-of-day estimate. The other three
+stories were re-checked against fresh sources on Friday night and
+stand as first written. Each story was verified against at least two
 independent news sources.
 
 1. **Diplomacy — Washington / Iran.** President Trump says he is in
@@ -36,30 +40,35 @@ independent news sources.
    January 1", pushing any decision into 2027. He spoke to Reuters,
    Fox News and Axios/News 12 on his flight home from China.
    Sources: Reuters, The Times of India, Axios.
-2. **Weather — Odisha, India.** About 300,000 people are evacuated
-   to shelters as Severe Cyclonic Storm Akvan nears landfall near
-   Gopalpur, due at noon on Friday, with winds of 90–100 km/h
-   gusting to 110 km/h. Sources: The Hindu, PTI, India
-   Meteorological Department.
+2. **Weather — Odisha, India.** Cyclone Akvan lands near Gopalpur
+   on Friday morning (landfall completed by 11:20 IST, winds 70–80
+   km/h gusting to 90) and weakens to a deep depression, after about
+   300,000 people were evacuated to shelters. No major damage or
+   loss of life has been reported in Odisha so far. Sources: The
+   Hindu BusinessLine, Reuters/PTI, India Meteorological Department,
+   Sambad English.
 3. **Justice — The Hague.** The International Court of Justice rules
    9–6 that Myanmar committed genocide against the Rohingya in its
    2017 crackdown, which killed about 10,000 people, and orders
    reparations. The judgment was delivered on Thursday 19 November
    and led Friday's world news. Sources: BBC, Reuters, The Guardian.
-4. **Climate — Antalya, Turkey.** COP31 reaches its closing day on
-   Friday, still split over phasing out fossil fuels and tripling
-   adaptation finance to $120bn a year. Sources: Reuters, Watan
-   News, Testbook.
+4. **Climate — Antalya, Turkey.** COP31 reaches its scheduled
+   closing day on Friday with no final deal: the latest draft drops
+   all mention of fossil fuels and the $120bn adaptation-finance
+   target, and the talks may run into the weekend. Sources: Reuters,
+   CNN, phys.org/AFP, AsiaToday.
 5. **Space.** NASA confirms Voyager 1 is the first spacecraft to fly
    more than a light-day from Earth — about 26 billion km — after 49
    years in space. The probe crossed the mark on Wednesday; its
    signal took a day to reach Earth. Sources: Reuters, AP,
    Marketscreener.
-6. **Entertainment.** GTA 6 makes an estimated $1.84bn in its first
-   day, passing the entire $1.8bn worldwide box-office run of
-   Christopher Nolan's The Odyssey, with about 19 million copies
-   sold (Sensor Tower estimate, not an official figure). Sources:
-   Reuters, 80.lv, Collider.
+6. **Entertainment.** GTA 6 makes an estimated $2.36bn by the end
+   of its launch day, from about 24.6 million copies sold — the
+   biggest game launch ever, passing the entire $1.8bn worldwide
+   box-office run of Christopher Nolan's The Odyssey (Sensor Tower
+   estimate, not an official figure; its Thursday-morning reading
+   was $1.84bn from 19.1 million copies). Sources: Reuters,
+   Notebookcheck, GameSpot, 80.lv.
 
 ## Build
 

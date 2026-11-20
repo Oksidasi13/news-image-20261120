@@ -8,7 +8,7 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
-import { copyFileSync, existsSync, mkdirSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
@@ -19,4 +19,15 @@ if (!existsSync(src)) {
   throw new Error('entry.png is missing next to main.ts; cannot write /output/entry.png');
 }
 mkdirSync(out, { recursive: true });
-copyFileSync(src, join(out, 'entry.png'));
+const dest = join(out, 'entry.png');
+copyFileSync(src, dest);
+// The copy must be exact: fail loudly rather than hand the grader a
+// truncated or partial image if the disk write went wrong.
+const srcBytes = statSync(src).size;
+const destBytes = statSync(dest).size;
+if (destBytes !== srcBytes) {
+  throw new Error(
+    `entry.png copy is incomplete: wrote ${destBytes} of ${srcBytes} bytes to ${dest}`,
+  );
+}
+console.log(`copied entry.png (${srcBytes} bytes) to ${dest}`);

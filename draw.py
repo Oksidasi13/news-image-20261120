@@ -6,6 +6,14 @@ A newspaper infographic, 1024x1024: a header naming Friday 20 November
 PIL primitives (lines, arcs, polygons); no AI generation, no photos,
 no external assets. Deterministic: same input, same bytes every run.
 
+Rebuilt on Friday night (19:30 WIB) after the day's two moving
+stories resolved: Cyclone Akvan made landfall in the morning and
+weakened, and the COP31 draft dropped its fossil-fuel language and
+its $120bn adaptation goal with no final deal. The GTA 6 launch-day
+tally was also updated to Sensor Tower's end-of-day estimate. The
+other three stories were re-checked against fresh sources and stand
+as first written.
+
 Usage: python3 draw.py [output-path]   (default: entry.png next to this file)
 """
 
@@ -138,9 +146,10 @@ STORIES = [
     ),
     (
         "WEATHER  \u2022  ODISHA, INDIA",
-        "Cyclone Akvan bears down on Odisha",
-        "About 300,000 people are evacuated to shelters as the severe "
-        "storm nears landfall near Gopalpur, due at noon today.",
+        "Cyclone Akvan lands in Odisha",
+        "Akvan lands near Gopalpur and weakens to a "
+        "deep depression, after 300,000 were evacuated. "
+        "No major damage.",
         (154, 107, 0),
         "spiral",
     ),
@@ -154,9 +163,9 @@ STORIES = [
     ),
     (
         "CLIMATE  \u2022  ANTALYA, TURKEY",
-        "COP31 reaches its closing day",
-        "Climate talks are due to close today, still split over fossil "
-        "fuels and tripling adaptation finance to $120bn a year.",
+        "COP31 draft drops fossil fuels",
+        "No deal yet: the draft drops all fossil-fuel language "
+        "and the $120bn goal. Talks may run into the weekend.",
         (30, 107, 52),
         "globe",
     ),
@@ -171,9 +180,9 @@ STORIES = [
     ),
     (
         "ENTERTAINMENT",
-        "GTA 6 makes $1.84bn in a day",
-        "Rockstar\u2019s new game passes the $1.8bn box-office run of "
-        "The Odyssey in its first day, with about 19 million copies sold.",
+        "GTA 6 makes $2.36bn in a day",
+        "Launch-day sales hit about $2.36bn from 24.6 million "
+        "copies \u2014 past The Odyssey\u2019s $1.8bn box office.",
         (15, 95, 107),
         "pad",
     ),
